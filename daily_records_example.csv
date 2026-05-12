@@ -1,0 +1,5 @@
+date,DO,MLSS,SV30,SVI,COD_in,COD_out,pH,temperature,NH4_N_out,return_sludge_ratio,notes
+2022-07-12,2.1,3200,280,88,345,42,7.2,24.8,3.6,0.78,"Demo data only; replace with real plant data"
+2022-07-13,1.7,3300,305,92,360,55,7.1,24.5,5.8,0.80,"Demo data only; slightly lower DO and higher effluent COD"
+2022-07-14,1.5,3350,325,97,372,63,7.0,24.2,7.4,0.82,"Demo data only; use as a retrieval and reporting example"
+2022-07-15,2.3,3280,295,90,350,47,7.2,24.0,4.2,0.79,"Demo data only; partial recovery example"

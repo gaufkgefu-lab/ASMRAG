@@ -1,0 +1,17 @@
+{
+  "default_abs_tolerance": 0.01,
+  "variables": {
+    "do": {"abs_tolerance": 0.05},
+    "sv": {"abs_tolerance": 1.0},
+    "mlss": {"abs_tolerance": 5.0},
+    "mlvss": {"abs_tolerance": 5.0},
+    "reflux_ratio": {"abs_tolerance": 1.0},
+    "cod": {"abs_tolerance": 0.1},
+    "bod": {"abs_tolerance": 0.1},
+    "ss": {"abs_tolerance": 0.5},
+    "tn": {"abs_tolerance": 0.1},
+    "nhn": {"abs_tolerance": 0.05},
+    "tp": {"abs_tolerance": 0.05},
+    "ph": {"abs_tolerance": 0.05}
+  }
+}

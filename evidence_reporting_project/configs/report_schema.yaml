@@ -1,0 +1,12 @@
+{
+  "schema_name": "operator_facing_daily_report",
+  "required_sections": [
+    "report_metadata",
+    "monitoring_summary",
+    "diagnostic_analysis",
+    "microbiology_settling_evidence",
+    "follow_up_actions",
+    "limitations",
+    "auditable_statements"
+  ]
+}

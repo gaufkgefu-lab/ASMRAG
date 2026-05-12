@@ -1,0 +1,33 @@
+{
+  "project_name": "evidence_grounded_daily_reporting",
+  "default_top_k": 5,
+  "supported_top_k": [3, 5, 8],
+  "default_llm_provider": "mock",
+  "default_method": "rag",
+  "paths": {
+    "water_quality": "D:/python/shujv/Process_variables.csv",
+    "manual_microscopy": "D:/python/shujv/Manual_microscopy.csv",
+    "image_observations": "data/raw/image_observations.csv",
+    "knowledge_cards": "data/knowledge_base/knowledge_cards.jsonl",
+    "knowledge_sources": "D:/python/zhishiku"
+  },
+  "process_thresholds": {
+    "high_do": 5.5,
+    "low_do": 1.5,
+    "high_sv": 35.0,
+    "high_cod": 40.0,
+    "high_nhn": 3.0,
+    "high_tn": 20.0,
+    "high_tp": 1.0
+  },
+  "mode_c": {
+    "status": "future_extension",
+    "enabled": false
+  },
+  "output_dirs": {
+    "reports": "outputs/reports",
+    "audits": "outputs/audits",
+    "retrieval": "outputs/retrieval",
+    "logs": "outputs/logs"
+  }
+}

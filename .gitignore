@@ -1,0 +1,66 @@
+# Data directories
+shujv/
+evidence_reporting_project/data/
+zhishiku_kb/
+
+# Optional local knowledge-source directory. Uncomment if this should stay private.
+# zhishiku/
+
+# Vector stores, indexes, and local databases
+*.faiss
+*.index
+*.ann
+*.hnsw
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+chroma/
+chromadb/
+vector_store/
+vector_db/
+.vectors/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and generated output
+*.log
+logs/
+output/
+outputs/
+**/output/
+**/outputs/
+**/result/
+**/results/
+**/report/
+**/reports/
+**/figure/
+**/figures/
+**/table/
+**/tables/
+**/exp*/
+**/experiment*/
+*_result.*
+*_results.*
+*_metrics.*
+*_report.*
+*_reports.*
+reports/output/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
